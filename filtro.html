@@ -12,13 +12,19 @@
 <body>
 
   <div>
-      <input type="text" placeholder="Seleccioná un color o tipo">
-      <button>Filtrar</button>
-      <h1>Lista de productos </h1>
-      <div id="lista-de-productos">
-    </div>
+    <!-- agregamos id a input para seleccionarlo en el js -->
+    <input type="text" placeholder="Seleccioná un color o tipo" id="filtro">
+    <!-- agregamos id a button para seleccionarlo en el js -->
+    <button id="btnFiltrar">Filtrar</button>
+
+    <h1>Lista de productos </h1>
+    <div id="lista-de-productos"></div>
+
   </div>
-  <script src="../filtro.js"></script>
+
+  <!-- se modifica ruta de js porque están en la misma carpeta -->
+  <script src="filtro.js"></script> 
+  
 </body>
 
 </html>
